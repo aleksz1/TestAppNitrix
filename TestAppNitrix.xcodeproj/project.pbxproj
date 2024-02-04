@@ -7,20 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9A41C52B6D553800233B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9A41C42B6D553800233B3B /* Main.storyboard */; };
+		2C9A41C72B6E7F3A00233B3B /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41C62B6E7F3A00233B3B /* ChildViewController.swift */; };
+		2C9A41C92B6E7F4400233B3B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41C82B6E7F4400233B3B /* FavoritesViewController.swift */; };
+		2C9A41CC2B6E803900233B3B /* TabBarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41CB2B6E803900233B3B /* TabBarBuilder.swift */; };
+		2C9A41CF2B6E909800233B3B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41CE2B6E909800233B3B /* Services.swift */; };
+		2C9A41D22B6E92A600233B3B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9A41D12B6E92A600233B3B /* Alamofire */; };
+		2C9A41D42B6E966000233B3B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41D32B6E966000233B3B /* Movies.swift */; };
+		2C9A41D62B6E9D2700233B3B /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41D52B6E9D2700233B3B /* MoviesCell.swift */; };
+		2C9A41D92B6EA85F00233B3B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9A41D82B6EA85F00233B3B /* SDWebImage */; };
+		2C9A41DB2B6EA85F00233B3B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9A41DA2B6EA85F00233B3B /* SDWebImageMapKit */; };
+		2C9A41DD2B6EAED200233B3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41DC2B6EAED200233B3B /* DetailViewController.swift */; };
+		2C9A41E02B6F170F00233B3B /* TestAppNitrix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41DE2B6F170F00233B3B /* TestAppNitrix.xcdatamodeld */; };
+		2C9A41E22B6F1EAC00233B3B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41E12B6F1EAC00233B3B /* StorageManager.swift */; };
+		2C9A41E62B6F523E00233B3B /* DetailOfFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A41E52B6F523E00233B3B /* DetailOfFavoritesViewController.swift */; };
 		2CEA264C2B6D448000057687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA264B2B6D448000057687 /* AppDelegate.swift */; };
 		2CEA264E2B6D448000057687 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA264D2B6D448000057687 /* SceneDelegate.swift */; };
-		2CEA26502B6D448000057687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA264F2B6D448000057687 /* ViewController.swift */; };
-		2CEA26532B6D448000057687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA26512B6D448000057687 /* Main.storyboard */; };
+		2CEA26502B6D448000057687 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA264F2B6D448000057687 /* MainViewController.swift */; };
 		2CEA26552B6D448000057687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA26542B6D448000057687 /* Assets.xcassets */; };
 		2CEA26582B6D448000057687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA26562B6D448000057687 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C9A41C42B6D553800233B3B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C9A41C62B6E7F3A00233B3B /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		2C9A41C82B6E7F4400233B3B /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		2C9A41CB2B6E803900233B3B /* TabBarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBuilder.swift; sourceTree = "<group>"; };
+		2C9A41CE2B6E909800233B3B /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		2C9A41D32B6E966000233B3B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		2C9A41D52B6E9D2700233B3B /* MoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
+		2C9A41DC2B6EAED200233B3B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2C9A41DF2B6F170F00233B3B /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		2C9A41E12B6F1EAC00233B3B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		2C9A41E52B6F523E00233B3B /* DetailOfFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfFavoritesViewController.swift; sourceTree = "<group>"; };
 		2CEA26482B6D448000057687 /* TestAppNitrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppNitrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEA264B2B6D448000057687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CEA264D2B6D448000057687 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CEA264F2B6D448000057687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CEA26522B6D448000057687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CEA264F2B6D448000057687 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2CEA26542B6D448000057687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CEA26572B6D448000057687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CEA26592B6D448000057687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +54,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9A41D92B6EA85F00233B3B /* SDWebImage in Frameworks */,
+				2C9A41DB2B6EA85F00233B3B /* SDWebImageMapKit in Frameworks */,
+				2C9A41D22B6E92A600233B3B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9A41CA2B6E800000233B3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A41CB2B6E803900233B3B /* TabBarBuilder.swift */,
+				2C9A41D32B6E966000233B3B /* Movies.swift */,
+				2C9A41D52B6E9D2700233B3B /* MoviesCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C9A41CD2B6E89F600233B3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A41CE2B6E909800233B3B /* Services.swift */,
+				2C9A41E12B6F1EAC00233B3B /* StorageManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2CEA263F2B6D447F00057687 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +101,54 @@
 		2CEA264A2B6D448000057687 /* TestAppNitrix */ = {
 			isa = PBXGroup;
 			children = (
-				2CEA264B2B6D448000057687 /* AppDelegate.swift */,
+				2C9A41CD2B6E89F600233B3B /* ViewModel */,
+				2C9A41CA2B6E800000233B3B /* Model */,
+				2CEA26632B6D464900057687 /* View */,
+				2CEA26612B6D464000057687 /* Storyboards */,
+				2CEA26602B6D463D00057687 /* Supporting Files */,
+				2CEA265F2B6D463B00057687 /* Resources */,
 				2CEA264D2B6D448000057687 /* SceneDelegate.swift */,
-				2CEA264F2B6D448000057687 /* ViewController.swift */,
-				2CEA26512B6D448000057687 /* Main.storyboard */,
-				2CEA26542B6D448000057687 /* Assets.xcassets */,
-				2CEA26562B6D448000057687 /* LaunchScreen.storyboard */,
-				2CEA26592B6D448000057687 /* Info.plist */,
 			);
 			path = TestAppNitrix;
+			sourceTree = "<group>";
+		};
+		2CEA265F2B6D463B00057687 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA26542B6D448000057687 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CEA26602B6D463D00057687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA264B2B6D448000057687 /* AppDelegate.swift */,
+				2C9A41DE2B6F170F00233B3B /* TestAppNitrix.xcdatamodeld */,
+				2CEA26592B6D448000057687 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CEA26612B6D464000057687 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A41C42B6D553800233B3B /* Main.storyboard */,
+				2CEA26562B6D448000057687 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CEA26632B6D464900057687 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA264F2B6D448000057687 /* MainViewController.swift */,
+				2C9A41C62B6E7F3A00233B3B /* ChildViewController.swift */,
+				2C9A41C82B6E7F4400233B3B /* FavoritesViewController.swift */,
+				2C9A41DC2B6EAED200233B3B /* DetailViewController.swift */,
+				2C9A41E52B6F523E00233B3B /* DetailOfFavoritesViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,11 @@
 			dependencies = (
 			);
 			name = TestAppNitrix;
+			packageProductDependencies = (
+				2C9A41D12B6E92A600233B3B /* Alamofire */,
+				2C9A41D82B6EA85F00233B3B /* SDWebImage */,
+				2C9A41DA2B6EA85F00233B3B /* SDWebImageMapKit */,
+			);
 			productName = TestAppNitrix;
 			productReference = 2CEA26482B6D448000057687 /* TestAppNitrix.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,10 @@
 				Base,
 			);
 			mainGroup = 2CEA263F2B6D447F00057687;
+			packageReferences = (
+				2C9A41D02B6E92A600233B3B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2C9A41D72B6EA85F00233B3B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 2CEA26492B6D448000057687 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9A41C52B6D553800233B3B /* Main.storyboard in Resources */,
 				2CEA26582B6D448000057687 /* LaunchScreen.storyboard in Resources */,
 				2CEA26552B6D448000057687 /* Assets.xcassets in Resources */,
-				2CEA26532B6D448000057687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEA26502B6D448000057687 /* ViewController.swift in Sources */,
+				2CEA26502B6D448000057687 /* MainViewController.swift in Sources */,
+				2C9A41D62B6E9D2700233B3B /* MoviesCell.swift in Sources */,
+				2C9A41C72B6E7F3A00233B3B /* ChildViewController.swift in Sources */,
+				2C9A41E62B6F523E00233B3B /* DetailOfFavoritesViewController.swift in Sources */,
+				2C9A41E22B6F1EAC00233B3B /* StorageManager.swift in Sources */,
+				2C9A41D42B6E966000233B3B /* Movies.swift in Sources */,
+				2C9A41C92B6E7F4400233B3B /* FavoritesViewController.swift in Sources */,
+				2C9A41CF2B6E909800233B3B /* Services.swift in Sources */,
+				2C9A41E02B6F170F00233B3B /* TestAppNitrix.xcdatamodeld in Sources */,
+				2C9A41CC2B6E803900233B3B /* TabBarBuilder.swift in Sources */,
+				2C9A41DD2B6EAED200233B3B /* DetailViewController.swift in Sources */,
 				2CEA264C2B6D448000057687 /* AppDelegate.swift in Sources */,
 				2CEA264E2B6D448000057687 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +250,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CEA26512B6D448000057687 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CEA26522B6D448000057687 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CEA26562B6D448000057687 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -275,6 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -294,7 +391,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG5S8PZD7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestAppNitrix/Info.plist;
+				INFOPLIST_FILE = "TestAppNitrix/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +419,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG5S8PZD7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestAppNitrix/Info.plist;
+				INFOPLIST_FILE = "TestAppNitrix/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,6 +460,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C9A41D02B6E92A600233B3B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		2C9A41D72B6EA85F00233B3B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C9A41D12B6E92A600233B3B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C9A41D02B6E92A600233B3B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2C9A41D82B6EA85F00233B3B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C9A41D72B6EA85F00233B3B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2C9A41DA2B6EA85F00233B3B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C9A41D72B6EA85F00233B3B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2C9A41DE2B6F170F00233B3B /* TestAppNitrix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C9A41DF2B6F170F00233B3B /* Data.xcdatamodel */,
+			);
+			currentVersion = 2C9A41DF2B6F170F00233B3B /* Data.xcdatamodel */;
+			path = TestAppNitrix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2CEA26402B6D447F00057687 /* Project object */;
 }
